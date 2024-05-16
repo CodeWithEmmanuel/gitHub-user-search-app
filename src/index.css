@@ -36,8 +36,12 @@ html {
 body {
   min-height: 100vh;
   max-width: 100vw;
+  background-color: var(--lm-bg-clr);
 }
 
+.dm-body {
+  background-color: var(--dm-bg-clr);
+}
 .container {
   background-color: var(--lm-bg-clr);
   display: flex;

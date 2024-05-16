@@ -3,6 +3,10 @@ function Header({ darkMode, setDarkMode }) {
     setDarkMode(!darkMode);
   }
 
+  darkMode
+    ? document.body.setAttribute("class", "dm-body")
+    : document.body.setAttribute("class", "");
+
   return (
     <div className="header-content">
       <h2>devfinder</h2>
